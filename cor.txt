@@ -1,4 +1,0 @@
-Posição do Mouse: X=1126, Y=289
-Cor em RGB: (232, 205, 174)
-Cor em HTML (Hex): #E8CDAE
-------------------------------
