@@ -72,11 +72,7 @@ export function Footer() {
             <img 
               src="/images/programa_footer.png" 
               alt="Programa Representante" 
-<<<<<<< HEAD
               className="h-30 w-auto"
-=======
-              className="h-16 w-auto"
->>>>>>> 082cb233ec2c71a60e1b8d3e844364335da99888
             />
           </motion.div>
           <motion.div
@@ -88,11 +84,7 @@ export function Footer() {
             <img 
               src="/images/unipampa_footer.png" 
               alt="UNIPAMPA" 
-<<<<<<< HEAD
               className="h-50 w-auto"
-=======
-              className="h-16 w-auto"
->>>>>>> 082cb233ec2c71a60e1b8d3e844364335da99888
             />
           </motion.div>
         </div>
