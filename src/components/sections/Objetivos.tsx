@@ -31,9 +31,9 @@ export function Objetivos() {
         >
 
           <h2 className="text-4xl md:text-5xl font-heading text-[var(--foreground)] font-bold mb-6">
-            Nossos Objetivos
+            <span className="contrast-brown">Nossos Objetivos</span>
           </h2>
-          <div className="w-16 h-1 bg-[var(--accent)] mx-auto" />
+          <div className="w-16 h-1 bg-[var(--accent)] constrast-brown font-bold mx-auto" />
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-12 lg:gap-20">
@@ -46,7 +46,7 @@ export function Objetivos() {
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.8, delay: index * 0.2, ease: "easeOut" }}
             >
-              <div className="aspect-[4/3] overflow-hidden bg-[var(--accent)]/5">
+              <div className="aspect-[4/3] overflow-hidden contrast-brown bg-[var(--accent)]/5">
                 <img 
                   src={obj.image} 
                   alt={obj.title}

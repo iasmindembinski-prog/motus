@@ -32,7 +32,7 @@ export function EdicoesAnteriores() {
             </h2>
             <div className="w-16 h-1 bg-[var(--accent)]" />
             <p className="mt-6 text-lg text-[var(--foreground)]/70 max-w-2xl font-serif leading-relaxed">
-              Desde 2020, reunimos histórias autênticas e poemas marcantes em edições anuais gratuitas e 100% acessíveis. Explore nosso acervo digital.
+              Desde 2020, reunimos histórias autênticas e poemas marcantes em edições anuais gratuitas e <span className="font-bold text-[var(--accent)]">100%</span> acessíveis. Explore nosso acervo digital.
             </p>
           </motion.div>
           

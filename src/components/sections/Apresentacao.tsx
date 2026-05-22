@@ -14,7 +14,7 @@ export function Apresentacao() {
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
           <h2 className="text-4xl md:text-5xl font-heading text-[var(--foreground)] font-bold">
-            Apresentação
+            <span className="contrast-purple">Apresentação</span>
           </h2>
           <div className="w-12 h-1 bg-[var(--accent)]" />
           <p className="text-lg md:text-xl text-[var(--foreground)]/80 leading-relaxed font-serif">

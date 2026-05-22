@@ -27,10 +27,10 @@ export function EdicaoEspecial() {
           
           <div className="space-y-6 text-lg text-[var(--foreground)]/80 font-serif leading-relaxed">
             <p>
-              A edição especial, com narrativas na língua Guarani, tem como base o diálogo intercultural colaborativo com a comunidade Guarani Mbya, em encontros vivenciais na sua aldeia (Tekoa Yvy Poty).
+              A edição especial, com narrativas na língua <span className="text-[var(--accent)] italic font-bold">Guarani</span>, tem como base o diálogo intercultural colaborativo com a comunidade Guarani Mbya, em encontros vivenciais na sua aldeia (Tekoa Yvy Poty).
             </p>
             <p>
-              Ela convida ao mergulho em narrativas ancestrais, oportunizando momentos especiais de aprendizagens interculturais, acompanhada por ilustrações da artista Carine Josiéle Wendland e da própria comunidade Guarani.
+              Ela convida ao mergulho em narrativas ancestrais, oportunizando momentos especiais de aprendizagens interculturais, acompanhada por ilustrações da artista Carine Josiéle Wendland e da própria comunidade <span className="text-[var(--accent)] font-bold italic">Guarani.</span>
             </p>
           </div>
 

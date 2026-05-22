@@ -8,6 +8,7 @@
   --card: #EAD8C3;
   --card-foreground: #39240F;
   --intro-background: #e7d0b0;
+  --other-accent: #5f4356;
 }
 
 @theme inline {
@@ -29,4 +30,37 @@
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
   }
+}
+
+@keyframes special-letter {
+  0% {
+    color: var(--foreground);
+    text-shadow: 0 0 0px transparent;
+  }
+
+  50% {
+    color: var(--accent);
+    text-shadow: 0 0 6px color-mix(in srgb, var(--accent) 60%, transparent);
+  }
+
+  100% {
+    color: var(--foreground);
+    text-shadow: 0 0 0px transparent;
+  }
+}
+
+.special-letter {
+  display: inline-block;
+  animation: special-letter 3s ease-in-out infinite;
+  font-weight: 700;
+}
+
+.contrast-purple {
+  color: var(--accent);
+  text-shadow: 0 0 6px color-mix(in srgb, var(--accent) 60%, transparent);
+}
+
+.contrast-brown {
+  color: var(--foreground);
+  text-shadow: 0 0 6px color-mix(in srgb, var(--foreground) 60%, transparent);
 }

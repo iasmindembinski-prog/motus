@@ -26,7 +26,7 @@ export function PremioMotus() {
           </h3>
           
           <p className="text-lg text-[var(--background)]/70 font-serif leading-relaxed">
-            O Prêmio Motus de Melhor Leitura Crítica busca valorizar a análise literária e incentivar a reflexão sobre obras inéditas. A iniciativa premiará o(a) autor(a) da melhor avaliação crítica de um romance inédito com R$ 10.000,00.
+            O Prêmio Motus de Melhor Leitura Crítica busca valorizar a análise literária e incentivar a reflexão sobre obras inéditas. A iniciativa premiará o(a) autor(a) da melhor avaliação crítica de um romance inédito com <strong className="uppercase font-bold">R$ 10.000,00.</strong>
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-4 border-t border-[var(--background)]/10">
@@ -47,7 +47,7 @@ export function PremioMotus() {
           </div>
 
           <a href="https://bit.ly/premiomotusdeleitura" target="_blank" rel="noopener noreferrer" 
-             className="inline-flex items-center gap-2 group text-[var(--accent)] hover:text-white transition-colors duration-300 font-medium text-lg mt-4">
+             className="inline-flex items-center gap-2 group text-[var(--other-accent)] hover:text-white transition-colors duration-300 font-medium text-lg mt-4">
             Acessar Regulamento Completo
             <ArrowRight className="group-hover:translate-x-1 transition-transform" size={20} />
           </a>
