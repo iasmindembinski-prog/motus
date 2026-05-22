@@ -16,7 +16,6 @@ export function HeroSection() {
 
   return (
     <section className="relative w-full h-screen overflow-hidden bg-black">
-      {/* Background Video */}
       <video
         ref={videoRef}
         src="/videos/BookIntro.mp4"
@@ -30,7 +29,6 @@ export function HeroSection() {
         }}
       />
       
-      {/* Overlay to ensure text readability if needed */}
       <div className="absolute inset-0 bg-black/30" />
 
       {/* Content */}

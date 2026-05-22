@@ -29,6 +29,7 @@ export function Objetivos() {
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
+
           <h2 className="text-4xl md:text-5xl font-heading text-[var(--foreground)] font-bold mb-6">
             Nossos Objetivos
           </h2>
