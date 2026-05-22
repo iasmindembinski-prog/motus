@@ -61,9 +61,37 @@ export function Footer() {
         </div>
       </div>
       
-      <div className="max-w-7xl mx-auto mt-16 pt-8 border-t border-[var(--background)]/10 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-[var(--background)]/50 font-serif">
-        <p>© {new Date().getFullYear()} Motus. Todos os direitos reservados.</p>
-        <p>Desenvolvido para incentivar a literatura.</p>
+      <div className="max-w-7xl mx-auto mt-16 pt-8 border-t border-[var(--background)]/10">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-8 mb-8">
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            <img 
+              src="/images/programa_footer.png" 
+              alt="Programa Representante" 
+              className="h-16 w-auto"
+            />
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5, delay: 0.1 }}
+            viewport={{ once: true }}
+          >
+            <img 
+              src="/images/unipampa_footer.png" 
+              alt="UNIPAMPA" 
+              className="h-16 w-auto"
+            />
+          </motion.div>
+        </div>
+        <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-[var(--background)]/50 font-serif">
+          <p>© {new Date().getFullYear()} Motus. Todos os direitos reservados.</p>
+          <p>Desenvolvido para incentivar a literatura.</p>
+        </div>
       </div>
     </footer>
   );
