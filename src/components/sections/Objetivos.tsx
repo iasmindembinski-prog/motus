@@ -33,7 +33,7 @@ export function Objetivos() {
           <h2 className="text-4xl md:text-5xl font-heading text-[var(--foreground)] font-bold mb-6">
             <span className="contrast-brown">Nossos Objetivos</span>
           </h2>
-          <div className="w-16 h-1 bg-[var(--accent)] constrast-brown font-bold mx-auto" />
+          <div className="w-16 h-1 bg-[var(--accent)] mx-auto" />
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-12 lg:gap-20">

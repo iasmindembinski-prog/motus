@@ -18,7 +18,7 @@ export function EdicaoEspecial() {
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          <div className="inline-block px-4 py-1 rounded-full border border-[var(--accent)] text-[var(--accent)] font-semibold text-sm tracking-widest uppercase mb-2">
+          <div className="inline-block px-4 py-1 rounded-full border border-[var(--accent special-letter text-[var(--accent)] font-semibold text-sm tracking-widest uppercase mb-2">
             Edição Especial
           </div>
           <h2 className="text-4xl md:text-5xl font-heading text-[var(--foreground)] font-bold leading-tight">

@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 
 const equipe = [
-  { name: "Aline Vieira de Mello", role: "Coordenadora", image: "/images/Fotos-Equipe/AlineMello.jpg" },
+  { name: <span className="font-bold special-letter">Aline Vieira de Mello</span>, role: "Coordenadora", image: "/images/Fotos-Equipe/AlineMello.jpg" },
   { name: "Amanda Gobus Lopes", role: "Ilustradora", image: "/images/Fotos-Equipe/AmandaLopes.jpg" },
   { name: "Amanda Meincke Melo", role: "Avaliadora", image: "/images/Fotos-Equipe/AmandaMelo.jpg" },
   { name: "Mariléia Marchezan", role: "Avaliadora", image: "/images/Fotos-Equipe/MarileiaMarchezan.jpg" },
@@ -28,7 +28,7 @@ export function Equipe() {
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          <h2 className="text-4xl md:text-5xl font-heading text-[var(--foreground)] font-bold mb-6">
+          <h2 className="text-4xl md:text-5xl font-heading font-bold contrast-brown text-[var(--foreground)] font-bold mb-6">
             Quem Somos
           </h2>
           <div className="w-16 h-1 bg-[var(--accent)] mx-auto" />

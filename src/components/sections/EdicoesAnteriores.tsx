@@ -27,7 +27,7 @@ export function EdicoesAnteriores() {
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
-            <h2 className="text-4xl md:text-5xl font-heading text-[var(--foreground)] font-bold mb-4">
+            <h2 className="text-4xl md:text-5xl contrast-brown font-bold font-heading text-[var(--foreground)] font-bold mb-4">
               Edições Anteriores
             </h2>
             <div className="w-16 h-1 bg-[var(--accent)]" />
@@ -46,7 +46,7 @@ export function EdicoesAnteriores() {
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
           >
-            Ver todas as edições
+            <span className="special-letter">Ver todas as edições</span>
             <ArrowRight className="group-hover:translate-x-1 transition-transform" size={20} />
           </motion.a>
         </div>

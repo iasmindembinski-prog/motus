@@ -33,11 +33,6 @@
 }
 
 @keyframes special-letter {
-  0% {
-    color: var(--foreground);
-    text-shadow: 0 0 0px transparent;
-  }
-
   50% {
     color: var(--accent);
     text-shadow: 0 0 6px color-mix(in srgb, var(--accent) 60%, transparent);
@@ -45,7 +40,7 @@
 
   100% {
     color: var(--foreground);
-    text-shadow: 0 0 0px transparent;
+    text-shadow: 0 0 6px color-mix(in srgd, var(--foreground) 60%, transparent);
   }
 }
 
