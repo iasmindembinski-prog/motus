@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 
 const equipe = [
-  { name: <span className="font-bold special-letter">Aline Vieira de Mello</span>, role: "Coordenadora", image: "/images/Fotos-Equipe/AlineMello.jpg" },
+  { name: "Aline Vieira de Mello", role: "Coordenadora", image: "/images/Fotos-Equipe/AlineMello.jpg" },
   { name: "Amanda Gobus Lopes", role: "Ilustradora", image: "/images/Fotos-Equipe/AmandaLopes.jpg" },
   { name: "Amanda Meincke Melo", role: "Avaliadora", image: "/images/Fotos-Equipe/AmandaMelo.jpg" },
   { name: "Mariléia Marchezan", role: "Avaliadora", image: "/images/Fotos-Equipe/MarileiaMarchezan.jpg" },
