@@ -9,6 +9,7 @@
   --card-foreground: #39240F;
   --intro-background: #e7d0b0;
   --other-accent: #5f4356;
+  --redirect: #4e0c9e;
 }
 
 @theme inline {
@@ -58,4 +59,17 @@
 .contrast-brown {
   color: var(--foreground);
   text-shadow: 0 0 6px color-mix(in srgb, var(--foreground) 60%, transparent);
+}
+
+.contrast-shadow {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .6);
+}
+
+.animatedText {
+  letter-spacing: normal;
+  transition: letter-spacing 2s ease-in-out;
+}
+
+.animatedText:hover {
+  letter-spacing: 0.2em;
 }

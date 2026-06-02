@@ -16,7 +16,7 @@ export function PremioMotus() {
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
           <div className="flex items-center gap-4">
-            <Trophy className="text-[var(--accent)]" size={32} />
+            <Trophy className="text-white" size={32} />
             <h2 className="text-4xl md:text-5xl font-heading font-bold">
               Prêmio Motus
             </h2>
@@ -26,19 +26,19 @@ export function PremioMotus() {
           </h3>
           
           <p className="text-lg text-[var(--background)]/70 font-serif leading-relaxed">
-            O Prêmio Motus de Melhor Leitura Crítica busca valorizar a análise literária e incentivar a reflexão sobre obras inéditas. A iniciativa premiará o(a) autor(a) da melhor avaliação crítica de um romance inédito com <strong className="uppercase font-bold">R$ 10.000,00.</strong>
+            O Prêmio Motus de Melhor Leitura Crítica busca valorizar a análise literária e incentivar a reflexão sobre obras inéditas. A iniciativa premiará o(a) autor(a) da melhor avaliação crítica de um romance inédito com <strong className="uppercase font-bold">R$ 4.000,00.</strong>
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-4 border-t border-[var(--background)]/10">
             <div className="flex items-start gap-3">
-              <Calendar className="text-[var(--accent)] mt-1" size={20} />
+              <Calendar className="text-white mt-1" size={20} />
               <div>
                 <strong className="block text-sm uppercase tracking-wider text-[var(--background)]/50 mb-1">Inscrições</strong>
                 <span className="font-medium text-[var(--background)]">Até 31 de maio de 2025</span>
               </div>
             </div>
             <div className="flex items-start gap-3">
-              <Trophy className="text-[var(--accent)] mt-1" size={20} />
+              <Trophy className="text-white mt-1" size={20} />
               <div>
                 <strong className="block text-sm uppercase tracking-wider text-[var(--background)]/50 mb-1">Premiação</strong>
                 <span className="font-medium text-[var(--background)]">04 de outubro de 2025</span>
@@ -46,10 +46,10 @@ export function PremioMotus() {
             </div>
           </div>
 
-          <a href="https://bit.ly/premiomotusdeleitura" target="_blank" rel="noopener noreferrer" 
-             className="inline-flex items-center gap-2 group text-[var(--other-accent)] hover:text-white transition-colors duration-300 font-medium text-lg mt-4">
+          <a href="https://www.instagram.com/p/DXzOzcvgBU_/?igsh=MTJpa29yYzEzZDcybA%3D%3D" target="_blank" rel="noopener noreferrer" 
+             className="inline-flex items-center gap-2 group text-white hover:text-white transition-colors duration-300 font-medium text-lg mt-4">
             Acessar Regulamento Completo
-            <ArrowRight className="group-hover:translate-x-1 transition-transform" size={20} />
+            <ArrowRight className="group-hover:translate-x-1 text-white transition-transform" size={20} />
           </a>
         </motion.div>
 
@@ -60,9 +60,9 @@ export function PremioMotus() {
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 1, ease: "easeOut", delay: 0.2 }}
         >
-          <a href="https://bit.ly/premiomotusdeleitura" target="_blank" rel="noopener noreferrer" className="block relative group overflow-hidden rounded-xl shadow-2xl border border-[var(--background)]/10">
+          <a href="https://www.instagram.com/p/DXzOzcvgBU_/?igsh=MTJpa29yYzEzZDcybA%3D%3D" target="_blank" rel="noopener noreferrer" className="block relative group overflow-hidden rounded-xl shadow-2xl border border-[var(--background)]/10">
             <img 
-              src="/images/CardPremioMotus.jpeg" 
+              src="/images/CardPremioMotus.jpg" 
               alt="Prêmio Motus de Melhor Leitura Crítica" 
               className="w-full h-auto max-w-[500px] object-cover transition-transform duration-700 group-hover:scale-105"
             />

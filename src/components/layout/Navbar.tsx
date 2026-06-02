@@ -37,7 +37,7 @@ export function Navbar() {
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
             <Link href="/" className="flex-shrink-0">
-              <span className={`font-heading text-2xl font-bold tracking-wider transition-colors duration-500 ${scrolled ? "text-[var(--foreground)]" : "text-[var(--background)]"}`}>
+              <span className={`font-heading text-2xl styles.animatedText font-bold tracking-wider transition-colors duration-500 ${scrolled ? "text-[var(--foreground)]" : "text-[var(--background)]"}`}>
                 MOTUS
               </span>
             </Link>
