@@ -34,7 +34,7 @@ export function PremioMotus() {
               <Calendar className="text-white mt-1" size={20} />
               <div>
                 <strong className="block text-sm uppercase tracking-wider text-[var(--background)]/50 mb-1">Inscrições</strong>
-                <span className="font-medium text-[var(--background)]">Até 31 de maio de 2025</span>
+                <span className="font-medium text-[var(--background)]">Até 30 de junho de 2026</span>
               </div>
             </div>
             <div className="flex items-start gap-3">

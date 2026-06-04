@@ -18,7 +18,7 @@ export function Apresentacao() {
           </h2>
           <div className="w-12 h-1 bg-[var(--accent)]" />
           <p className="text-lg md:text-xl text-[var(--foreground)]/80 leading-relaxed font-serif">
-            Motus é um projeto de extensão vinculado ao “Programa C - Comunidade, Computação, Cultura, Comunicação, Ciência, Cidadania, Criatividade, Colaboração” da Universidade Federal do Pampa (UNIPAMPA), que visa a incentivar a produção de obras literárias e intensificar o interesse pela literatura dos cidadãos e estudantes.
+            <span className="contrast-brown font-bold">Motus</span> é um projeto de extensão vinculado ao “Programa C - Comunidade, Computação, Cultura, Comunicação, Ciência, Cidadania, Criatividade, Colaboração” da Universidade Federal do Pampa (UNIPAMPA), que visa a incentivar a produção de obras literárias e intensificar o interesse pela literatura dos cidadãos e estudantes.
           </p>
           <p className="text-lg md:text-xl text-[var(--foreground)]/80 leading-relaxed font-serif">
             Para atingir esses objetivos, o projeto organiza anualmente um concurso literário para selecionar contos e poemas que são publicados em um livro digital totalmente gratuito e acessível.

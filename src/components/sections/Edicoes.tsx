@@ -4,20 +4,13 @@ import { motion } from "framer-motion";
 import { Headphones, Book, BookOpen, Radio, Video, LucideIcon } from "lucide-react";
 import React from "react";
 
-// ─────────────────────────────────────────────────────────────
-// BUTTON CATALOG
-// Every possible button type is defined once here.
-// Each edition's table references only the types it needs.
-// ─────────────────────────────────────────────────────────────
-
 type ButtonKind = "live" | "book" | "audio" | "video";
 
 interface ButtonDef {
   kind: ButtonKind;
   label: string;
   Icon: LucideIcon;
-  /** "primary"  → filled solid background
-   *  "secondary" → outlined border only */
+
   variant: "primary" | "secondary";
 }
 
@@ -685,7 +678,6 @@ function EditionInfo({
   );
 }
 
-/** Full edition block: alternates cover side based on `coverRight`. */
 function EditionBlock({ edition, index }: { edition: Edition; index: number }) {
   const isEven = index % 2 === 0;
 
@@ -698,7 +690,6 @@ function EditionBlock({ edition, index }: { edition: Edition; index: number }) {
         id={edition.id}
         className="py-24 md:py-32 px-6 lg:px-8 bg-[var(--background)] relative overflow-hidden"
       >
-        {/* Subtle decorative blob alternating sides */}
         <div
           className={`absolute top-0 w-[700px] h-[700px] bg-[var(--accent)]/5 rounded-full blur-3xl -translate-y-1/2 pointer-events-none ${
             isEven ? "left-0 -translate-x-1/3" : "right-0 translate-x-1/3"
@@ -707,13 +698,11 @@ function EditionBlock({ edition, index }: { edition: Edition; index: number }) {
 
         <div className="max-w-7xl mx-auto relative z-10">
           {edition.coverRight ? (
-            /* Text LEFT — Cover RIGHT */
             <div className="flex flex-col lg:flex-row items-center gap-16">
               <EditionInfo edition={edition} animX={-50} />
               <CoverRight src={edition.cover} alt={edition.coverAlt} />
             </div>
           ) : (
-            /* Cover LEFT — Text RIGHT */
             <div className="flex flex-col-reverse lg:flex-row items-center gap-16">
               <CoverLeft src={edition.cover} alt={edition.coverAlt} />
               <EditionInfo edition={edition} animX={50} delay={0.2} />
@@ -724,10 +713,6 @@ function EditionBlock({ edition, index }: { edition: Edition; index: number }) {
     </>
   );
 }
-
-// ─────────────────────────────────────────────────────────────
-// MAIN EXPORT
-// ─────────────────────────────────────────────────────────────
 
 export function Edicoes() {
   return (
@@ -743,7 +728,7 @@ export function Edicoes() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, ease: "easeOut" }}
           >
-            <span className="inline-block px-4 py-1 rounded-full border border-[var(--accent)] text-[var(--accent)] font-semibold text-sm tracking-widest uppercase mb-6">
+            <span className="inline-block px-4 py-1 rounded-full border border-[var(--accent-foreground)] text-[var(--accent-foreground)] font-semibold text-sm tracking-widest uppercase mb-6">
               Acervo Literário
             </span>
           </motion.div>
@@ -781,7 +766,6 @@ export function Edicoes() {
         </div>
       </header>
 
-      {/* ── Edition Blocks (driven by EDITIONS table) ── */}
       {EDITIONS.map((edition, index) => (
         <EditionBlock key={edition.id} edition={edition} index={index} />
       ))}
