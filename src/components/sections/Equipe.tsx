@@ -7,7 +7,6 @@ const equipe = [
   { name: "Amanda Meincke Melo", role: "Avaliadora", desc: "Docente da Unipampa", image: "/images/Fotos-Equipe/AmandaMelo.jpg" },
   { name: "Mariléia Marchezan", role: "Avaliadora", desc: "Colaboradora Externa", image: "/images/Fotos-Equipe/MarileiaMarchezan.jpg" },
   { name: "Marlucy Medeiros", role: "Equipe Executora", desc: "TAE da Unipampa", image: "/images/Fotos-Equipe/MarlucyMedeiros.jpg" },
-  { name: "Jasmini Bilher", role: "Equipe Executora", desc: "Discente da Unipampa", image: "/images/Fotos-Equipe/JasminiBilher.png" },
   { name: "Eduardo Leal", role: "Programador", desc: "Discente da Unipampa", image: "/images/Fotos-Equipe/Eduardo.jpg" },
   { name: "Nicolas Feijó", role: "Programador", desc: "Discente da Unipampa", image: "/images/Fotos-Equipe/Nicolas.jpg" },
   { name: "Rosa Helena Martinez", role: "Avaliadora", desc: "Colaboradora Externa", image: "/images/Fotos-Equipe/RosaMartinez.jpg" },

@@ -17,7 +17,7 @@ interface ButtonDef {
 const BUTTON_CATALOG: Record<ButtonKind, ButtonDef> = {
   live: {
     kind: "live",
-    label: "Assistir ao Vivo",
+    label: "Live de Lançamento",
     Icon: Radio,
     variant: "secondary",
   },
@@ -378,8 +378,8 @@ Todas as obras são acompanhadas por uma ilustração criada especialmente pela 
         <span className="font-bold">Lançamento dia 03 de agosto de 2023.</span>
       </>
     ],
-    cover: "/images/capaNarrativas.png",
-    coverAlt: "Motus Edição Especial Narrativas Kaingang",
+    cover: "/images/Motus6capa.png",
+    coverAlt: "Motus6",
     coverRight: false,
 
     buttons: [
@@ -740,11 +740,11 @@ export function Edicoes() {
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.1 }}
           >
             Todas as{" "}
-            <span className="text-[var(--accent)] italic">Edições</span>
+            <span className="italic text-[var(--accent-foreground)]">Edições</span>
           </motion.h1>
 
           <motion.div
-            className="w-20 h-1 bg-[var(--accent)] mx-auto mb-8"
+            className="w-20 h-1 bg-[var(--accent-foreground)] mx-auto mb-8"
             initial={{ opacity: 0, scaleX: 0 }}
             animate={{ opacity: 1, scaleX: 1 }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}

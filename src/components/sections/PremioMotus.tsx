@@ -41,12 +41,12 @@ export function PremioMotus() {
               <Trophy className="text-white mt-1" size={20} />
               <div>
                 <strong className="block text-sm uppercase tracking-wider text-[var(--background)]/50 mb-1">Premiação</strong>
-                <span className="font-medium text-[var(--background)]">04 de outubro de 2025</span>
+                <span className="font-medium text-[var(--background)]">09 de outubro de 2026</span>
               </div>
             </div>
           </div>
 
-          <a href="https://www.instagram.com/p/DXzOzcvgBU_/?igsh=MTJpa29yYzEzZDcybA%3D%3D" target="_blank" rel="noopener noreferrer" 
+          <a href="https://drive.google.com/file/d/1NELtF_eMn_-TS0rsweN91T2kUnFg_64x/view" target="_blank" rel="noopener noreferrer" 
              className="inline-flex items-center gap-2 group text-white hover:text-white transition-colors duration-300 font-medium text-lg mt-4">
             Acessar Regulamento Completo
             <ArrowRight className="group-hover:translate-x-1 text-white transition-transform" size={20} />
