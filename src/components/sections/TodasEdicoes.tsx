@@ -9,11 +9,11 @@ const covers = [
   "/images/capaMotus7.png",
   "/images/Motus6capa.png",
   "/images/motus5.png",
-  "/images/motus4.PNG",
-  "/images/motus3.JPG",
-  "/images/motus2.JPG",
-  "/images/motus1.JPG",
-  "/images/OEncontroDosPrincipes.PNG",
+  "/images/motus4.jpg",
+  "/images/motus3.png",
+  "/images/motus2.png",
+  "/images/motus1.png",
+  "/images/encontro.png",
   "/images/capaNarrativas.png"
 ];
 
