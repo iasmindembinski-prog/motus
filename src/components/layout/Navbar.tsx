@@ -9,7 +9,7 @@ const navLinks = [
   { name: "Apresentação", href: "/#apresentacao" },
   { name: "Objetivos", href: "/#objetivos" },
   { name: "Prêmio Motus", href: "/#premio" },
-  { name: "Edições", href: "/#edicoes" },
+  { name: "Edições", href: "/edicoes" },
   { name: "Equipe", href: "/#equipe" },
 ];
 
