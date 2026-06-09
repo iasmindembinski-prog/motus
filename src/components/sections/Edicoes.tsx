@@ -27,6 +27,12 @@ const BUTTON_CATALOG: Record<ButtonKind, ButtonDef> = {
     Icon: Book,
     variant: "primary",
   },
+  bookk: {
+    kind: "book",
+    label: "Livro",
+    Icon: Book,
+    variant: "primary",
+  },
   audio: {
     kind: "audio",
     label: "Áudio no Spotify",
@@ -538,7 +544,7 @@ Todas as obras são acompanhadas por uma ilustração criada especialmente pela 
 
     buttons: [
       {
-        kind: "book",
+        kind: "bookk",
         href: "https://drive.google.com/file/d/1YRUSnqBQfoE15UVODeRg96aJ7HZ5VE7m/view",
       }
     ],
@@ -564,7 +570,7 @@ Todas as obras são acompanhadas por uma ilustração criada especialmente pela 
 
     buttons: [
       {
-        kind: "book",
+        kind: "bookk",
         href: "https://drive.google.com/file/d/1nc6Rc1JxKOpIQI-JhumMIcGfl3UJREmb/view",
       }
     ],

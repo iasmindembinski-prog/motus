@@ -6,11 +6,11 @@ import Link from "next/link";
 import { Menu, X } from "lucide-react";
 
 const navLinks = [
-  { name: "Apresentação", href: "#apresentacao" },
-  { name: "Objetivos", href: "#objetivos" },
-  { name: "Prêmio Motus", href: "#premio" },
-  { name: "Edições", href: "#edicoes" },
-  { name: "Equipe", href: "#equipe" },
+  { name: "Apresentação", href: "/#apresentacao" },
+  { name: "Objetivos", href: "/#objetivos" },
+  { name: "Prêmio Motus", href: "/#premio" },
+  { name: "Edições", href: "/#edicoes" },
+  { name: "Equipe", href: "/#equipe" },
 ];
 
 export function Navbar() {
