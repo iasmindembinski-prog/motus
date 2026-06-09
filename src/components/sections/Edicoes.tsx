@@ -506,7 +506,7 @@ Todas as obras são acompanhadas por uma ilustração criada especialmente pela 
         A terceira edição da Motus (Motus #3) tem como tema “O Tempo” e recebeu obras de autores residentes em diferentes estados brasileiros e no exterior (Canadá, Estados Unidos, Itália, Japão, Moçambique e Portugal). Esta edição é composta por dez poemas e dez contos, selecionados através de concurso literário, e um poema escrito de forma colaborativa por estudantes do nono ano com apoio de duas professoras, resultado da ação Motus na Escola Estadual Dr. Romário Araújo de Oliveira – CIEP (Alegrete). Cada obra é acompanhada por uma linda ilustração da artista Amanda Gobus Lopes. Todas as ilustrações da Motus #3 possuem texto alternativo.
       </>,
     ],
-    cover: "/images/motus3.jpg",
+    cover: "/images/motus3.png",
     coverAlt: "motus3",
     coverRight: false,
 
@@ -532,7 +532,7 @@ Todas as obras são acompanhadas por uma ilustração criada especialmente pela 
         A Motus #2 foi arquitetada no sentimento mais transformador que há, refletindo muitos anseios e atitudes. A segunda edição da Motus é entoada por 20 vozes. Vozes que erguem o amor, em todas as formas e em diversos lugares. Em tempos onde as armas são o ódio e a raiva, estamos trabalhando no lado oposto. Não nos incomodamos em propagar o bem - pelo contrário, estamos incentivando-o. Nossa maior ferramenta é a literatura e com ela estamos construindo diálogos e oportunidades. Nesta edição foram selecionados 10 poemas e 10 contos. Entretanto, mais de 190 obras foram submetidas, as quais merecem um grande e carinhoso muito obrigado. Obrigado por escreverem, por acreditarem na literatura e em suas vozes. Obrigado por acreditar em nosso trabalho. Desejamos que as formas de amor presentes nas páginas a seguir sirvam de inspiração e que o amor presente em cada forma se multiplique a cada novo leitor. Deixemos a árvore do amor florescer em nossos corações. A Motus #2 foi feita com muito amor para espalhar amor.
       </>,
     ],
-    cover: "/images/motus2.jpg",
+    cover: "/images/motus2.png",
     coverAlt: "motus2",
     coverRight: false,
 
@@ -558,7 +558,7 @@ Todas as obras são acompanhadas por uma ilustração criada especialmente pela 
         Movimentar a Cultura de um país não é uma tarefa simples. Contudo, as dificuldades enfrentadas durante a criação do projeto Motus não esmoreceram os integrantes. A caminhada não foi curta. Em 2016, surgiu a primeira ideia do que hoje chamamos de Motus - Movimento Literário Digital. Desde então houve dezenas de reuniões, centenas de e-mails e muito (muito mesmo!) esforço coletivo. Debatemos, refletimos, nos apoiamos e nos erguemos. Em 30/06/2017, ocorreu o lançamento da primeira edição do livro digital Motus (Motus #1), que reúne 11 poemas e 9 contos sobre o tema Liberdade de Expressão. São 20 escritores brasileiros de diferentes estados que nos prestigiaram com a escrita de suas obras e a confiança de seus trabalhos a nossa ação de extensão universitária. O projeto Motus deseja uma leitura energética e crítica. nenhuma verdade absoluta está escrita nas páginas do livro Motus #1. Nossa proposta é simples e lídima: que a literatura mova seus pensamentos. Siga sempre em movimento!
       </>,
     ],
-    cover: "/images/motus1.jpg",
+    cover: "/images/motus1.png",
     coverAlt: "motus1",
     coverRight: false,
 
