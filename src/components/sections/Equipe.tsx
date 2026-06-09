@@ -23,6 +23,7 @@ const equipe = [
   {name: "Júlia Duarte", role: "Equipe Executora", desc: "Discente da Unipampa", image: "/images/Fotos-Equipe/JuliaDuarte.jpeg" },
   {name: "Fabiano de Freitas Mion", role: "Equipe Executora", desc: "Discente da Unipampa", image: "/images/Fotos-Equipe/Fabiano2.jpeg" },
   {name: "Davi Tito Tafernaberry", role: "Equipe Executora", desc: "Discente da Unipampa", image: "/images/Fotos-Equipe/Davi.jpg" },
+  {name: "Raquel Mariano Linhares", role: "Equipe Executora", desc: "Doscente da Unipampa", image: "/images/Fotos-Equipe/RaquelMariano.jpeg" }
 ];
 
 export function Equipe() {
