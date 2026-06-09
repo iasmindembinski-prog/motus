@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Headphones, Book, BookOpen, Radio, Video, LucideIcon } from "lucide-react";
 import React from "react";
 
-type ButtonKind = "live" | "book" | "audio" | "video";
+type ButtonKind = "live" | "book" | "bookk" | "audio" | "video";
 
 interface ButtonDef {
   kind: ButtonKind;
@@ -77,6 +77,7 @@ interface Edition {
    * |---------|-----------------------|------------|-------------------------------|
    * | live    | Assistir ao Vivo      | Radio      | <url or "">                   |
    * | book    | Livro Acessível       | Book       | <Google Drive / direct link>  |
+   * * | bookk    | Livro       | Book       | <Google Drive / direct link>  |
    * | audio   | Áudio no Spotify      | Headphones | <Spotify link>                |
    * | video   | Vídeo Demonstrativo   | Video      | <YouTube / Vimeo link>        |
    */
