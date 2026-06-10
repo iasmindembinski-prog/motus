@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Headphones, Book, BookOpen, Radio, Video, LucideIcon } from "lucide-react";
 import React from "react";
 
-type ButtonKind = "live" | "book" | "bookk" | "audio" | "video";
+type ButtonKind = "live" | "book" |"epub"| "bookk" | "audio" | "video";
 
 interface ButtonDef {
   kind: ButtonKind;
@@ -24,6 +24,12 @@ const BUTTON_CATALOG: Record<ButtonKind, ButtonDef> = {
   book: {
     kind: "book",
     label: "Livro Acessível",
+    Icon: Book,
+    variant: "primary",
+  },
+  epub: {
+    kind: "book",
+    label: "Ler em EPUB",
     Icon: Book,
     variant: "primary",
   },
@@ -77,6 +83,7 @@ interface Edition {
    * |---------|-----------------------|------------|-------------------------------|
    * | live    | Assistir ao Vivo      | Radio      | <url or "">                   |
    * | book    | Livro Acessível       | Book       | <Google Drive / direct link>  |
+   * * | epub    | Ler em epub       | Book       | <Google Drive / direct link>  |
    * * | bookk    | Livro       | Book       | <Google Drive / direct link>  |
    * | audio   | Áudio no Spotify      | Headphones | <Spotify link>                |
    * | video   | Vídeo Demonstrativo   | Video      | <YouTube / Vimeo link>        |
@@ -116,7 +123,8 @@ const EDITIONS: Edition[] = [
      * ┌─────────┬─────────────────────────────────────────────────────────────────────┐
      * │  kind   │ href                                                                │
      * ├─────────┼─────────────────────────────────────────────────────────────────────┤
-     * │ book    │ https://drive.google.com/file/d/1fdwn0K5DHAuCM3bW8gPVk-Z6LBsNb2x7 │
+     * │ book    │ https://drive.google.com/file/d/1fdwn0K5DHAuCM3bW8gPVk-Z6LBsNb2x7 
+     * epub|https://drive.google.com/file/d/13tRdL2mz-449xoL5PcjuD8C4yHGo8J4m/view│
      * │ audio   │ https://open.spotify.com/show/7rlE6zRz3P0N8J7BPYMZJu               │
      * └─────────┴─────────────────────────────────────────────────────────────────────┘
      * live  → not available for this edition
@@ -126,6 +134,10 @@ const EDITIONS: Edition[] = [
       {
         kind: "book",
         href: "https://drive.google.com/file/d/1fdwn0K5DHAuCM3bW8gPVk-Z6LBsNb2x7/view?usp=drive_link",
+      },
+      {
+        kind: "epub",
+        href: "https://drive.google.com/file/d/13tRdL2mz-449xoL5PcjuD8C4yHGo8J4m/view",
       },
       {
         kind: "audio",
@@ -183,6 +195,10 @@ const EDITIONS: Edition[] = [
         href: "https://drive.google.com/file/d/1sP-CgqwCtDfEiJ1VtLR5f1KF9JCOGU4X/view?usp=sharing",
       },
       {
+        kind: "epub",
+        href: "https://drive.google.com/file/d/1p1UD-T5eCWlMH31nCARIirIZU5pGzTGr/view",
+      },
+      {
         kind: "audio",
         href: "https://open.spotify.com/show/7rlE6zRz3P0N8J7BPYMZJu?si=62981ca0093f45ad",
       },
@@ -227,7 +243,7 @@ const EDITIONS: Edition[] = [
     coverAlt: "Capa Motus #8",
     coverRight: false,
     /*
-     * Button table — Motus #9
+     * Button table — Motus #8
      * ┌─────────┬─────────────────────────────────────────────────────────────────────┐
      * │  kind   │ href                                                                │
      * ├─────────┼─────────────────────────────────────────────────────────────────────┤
@@ -241,6 +257,10 @@ const EDITIONS: Edition[] = [
       {
         kind: "book",
         href: "https://drive.google.com/file/d/1qkAn0-DuigA4h0JMQgNIFJWjlCX32USJ/view",
+      },
+      {
+        kind: "epub",
+        href: "https://drive.google.com/file/d/1H_kx3F7yQ9DHOEUmPFfXpMSoCJjAUjhZ/view",
       },
       {
         kind: "audio",
@@ -291,7 +311,7 @@ const EDITIONS: Edition[] = [
     coverAlt: "Capa Motus #7 — A dança da vida",
     coverRight: false,
     /*
-     * Button table — Motus #9
+     * Button table — Motus #7
      * ┌─────────┬─────────────────────────────────────────────────────────────────────┐
      * │  kind   │ href                                                                │
      * ├─────────┼─────────────────────────────────────────────────────────────────────┤
@@ -305,6 +325,10 @@ const EDITIONS: Edition[] = [
       {
         kind: "book",
         href: "https://drive.google.com/file/d/18tqT_xy9EqmBfZB-4eT9dPlgRYQww17q/view",
+      },
+      {
+        kind: "epub",
+        href: "https://drive.google.com/file/d/1m6KOcGAisEB2hQKR5dUyhqK-6QoykIZe/view",
       },
       {
         kind: "audio",
@@ -343,6 +367,10 @@ const EDITIONS: Edition[] = [
       {
         kind: "book",
         href: "https://drive.google.com/file/d/13zAROEwWf4pn8AcilfzjYfU1TEPPJYBC/view",
+      },
+      {
+        kind: "epub",
+        href: "https://drive.google.com/file/d/1AruI59D-9VDOr0O20dn-f2hi5fJF3YgA/view",
       },
       {
         kind: "audio",
@@ -392,7 +420,11 @@ Todas as obras são acompanhadas por uma ilustração criada especialmente pela 
     buttons: [
       {
         kind: "book",
-        href: "https://bit.ly/motus6",
+        href: "https://drive.google.com/file/d/1VTF3sGM61OYr2qedGLNXPj7IhTESWDyd/view",
+      },
+      {
+        kind: "epub",
+        href: "https://drive.google.com/file/d/1hNgN4qUie4vsSYmkWYXM3rRnpA25pIz7/view",
       },
       {
         kind: "audio",
@@ -429,6 +461,10 @@ Todas as obras são acompanhadas por uma ilustração criada especialmente pela 
         href: "https://bit.ly/motus5",
       },
       {
+        kind: "epub",
+        href: "https://drive.google.com/file/d/11Jestm8dNq9LMQrG_9DWVq7i3aWr5wua/view",
+      },
+      {
         kind: "audio",
         href: "https://soundcloud.com/aline-vieira-de-mello/sets/motus-5",
       },
@@ -463,6 +499,10 @@ Todas as obras são acompanhadas por uma ilustração criada especialmente pela 
         href: "https://bit.ly/OEncontroDosPrincipes",
       },
       {
+        kind: "epub",
+        href: "https://drive.google.com/file/d/1YlJc4QWwjypyMN0Pq3evuggshSFS22Qw/view",
+      },
+      {
         kind: "live",
         href: "https://www.youtube.com/watch?v=-udvm2NK0rg&list=PLMDXvhlQlpJbNd66sT8nuKEYvR-jI0n4T&index=7",
       }
@@ -493,6 +533,10 @@ Todas as obras são acompanhadas por uma ilustração criada especialmente pela 
         href: "https://bit.ly/motus4",
       },
       {
+        kind: "epub",
+        href: "https://drive.google.com/file/d/1krlHn1MKMSjDCNCSZHXg0ulWewxt8LZ-/view",
+      },
+      {
         kind: "audio",
         href: "https://soundcloud.com/aline-vieira-de-mello/sets/motus4",
       }
@@ -521,6 +565,10 @@ Todas as obras são acompanhadas por uma ilustração criada especialmente pela 
       {
         kind: "book",
         href: "https://drive.google.com/file/d/18d0Go_s7sId2grdaGY9yHMkaENzheWse/view",
+      },
+      {
+        kind: "epub",
+        href: "https://drive.google.com/file/d/1lEU6RlAplxXBm3Bt48_V99RfB_zt7643/view",
       }
     ],
   },
@@ -547,6 +595,10 @@ Todas as obras são acompanhadas por uma ilustração criada especialmente pela 
       {
         kind: "bookk",
         href: "https://drive.google.com/file/d/1YRUSnqBQfoE15UVODeRg96aJ7HZ5VE7m/view",
+      },
+      {
+        kind: "epub",
+        href: "https://drive.google.com/file/d/1HETRTSVj1e0hlbHhFUeF6Q8_FiCs587O/view",
       }
     ],
   },
@@ -573,6 +625,10 @@ Todas as obras são acompanhadas por uma ilustração criada especialmente pela 
       {
         kind: "bookk",
         href: "https://drive.google.com/file/d/1nc6Rc1JxKOpIQI-JhumMIcGfl3UJREmb/view",
+      },
+      {
+        kind: "epub",
+        href: "https://drive.google.com/file/d/1sw0RfyzFCwtBtKCDSlDAOfPx9PfmK2Ve/view",
       }
     ],
   },
