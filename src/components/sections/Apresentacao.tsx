@@ -22,6 +22,7 @@ export function Apresentacao() {
           </p>
           <p className="text-lg md:text-xl text-[var(--foreground)]/80 leading-relaxed font-serif">
             Para atingir esses objetivos, o projeto organiza anualmente um concurso literário para selecionar contos e poemas que são publicados em um livro digital totalmente gratuito e acessível.
+            Além disso, realiza ações para a divulgação do livro, como a Motus na Escola, em que os estudantes da educação básica realizam a leitura e interpretação das obras e ilustrações publicadas em diferentes edições do livro digital.
           </p>
         </motion.div>
 
