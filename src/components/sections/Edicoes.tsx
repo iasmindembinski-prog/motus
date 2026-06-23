@@ -523,7 +523,7 @@ Todas as obras são acompanhadas por uma ilustração criada especialmente pela 
         O livro digital Motus #4 é um produto do projeto de extensão Motus - Movimento Literário Digital da Universidade Federal do Pampa (UNIPAMPA), Campus Alegrete, que visa intensificar o interesse pela literatura dos cidadãos e estudantes; incentivar a produção de obras literárias; selecionar e publicar obras literárias inéditas em Língua Portuguesa. . Este livro é composto por dez poemas e dez contos selecionados através do concurso literário Motus #4, realizado na integra em formato digital. O concurso teve como tema “Olhar com os olhos do outro” e recebeu 195 obras, sendo 178 obras de autores residentes em 24 estados brasileiros e Distrito Federal e 17 obras de autores residentes em outros 10 países: Alemanha, Angola, Canadá, Israel, Itália, Japão, Moçambique, Portugal, Suíça e Uruguai. Todas as obras são acompanhadas por uma ilustração criada especialmente pela artista Amanda Gobus Lopes. Adicionalmente, todas as obras foram lidas e seus áudios estão disponíveis gratuitamente na <a href="https://soundcloud.com/aline-vieira-de-mello/sets/motus4" className="font-bold text-[var(--redirect)]">plataforma SoundCloud.</a>
       </>,
     ],
-    cover: "/images/motus4.jpg",
+    cover: "/images/motus4.png",
     coverAlt: "motus4",
     coverRight: false,
 

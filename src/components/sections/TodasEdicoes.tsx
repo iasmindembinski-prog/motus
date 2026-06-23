@@ -9,7 +9,7 @@ const covers = [
   "/images/capaMotus7.png",
   "/images/Motus6capa.png",
   "/images/motus5.png",
-  "/images/motus4.jpg",
+  "/images/motus4.png",
   "/images/motus3.png",
   "/images/motus2.png",
   "/images/motus1.png",
