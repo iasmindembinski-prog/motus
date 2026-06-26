@@ -5,6 +5,7 @@ import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 
 const covers = [
+  "/images/CapaMotus9.png",
   "/images/CapaMotus8.png",
   "/images/capaMotus7.png",
   "/images/Motus6capa.png",
@@ -14,6 +15,7 @@ const covers = [
   "/images/motus2.png",
   "/images/motus1.png",
   "/images/encontro.png",
+  "images/CapaMotusGuarani.png",
   "/images/capaNarrativas.png"
 ];
 
@@ -53,7 +55,7 @@ export function TodasEdicoes() {
           </motion.div>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5">
           {covers.map((cover, index) => (
             <Link
               key={index}

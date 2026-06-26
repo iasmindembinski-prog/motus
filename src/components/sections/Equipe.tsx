@@ -2,28 +2,29 @@
 import { motion } from "framer-motion";
 
 const equipe = [
-  { name: "Aline Vieira de Mello", role: "Coordenadora", desc: "Docente da Unipampa", image: "/images/Fotos-Equipe/AlineMello.jpg" },
+  { name: "Alexandre Alves", role: "Avaliador", desc: "Colaborador Externo", image: "/images/Fotos-Equipe/AlexandreAlderete.jpg" },
+  {name: "Aliriane Almeida", role: "Avaliadora", desc: "Colaboradora Externa", image: '/images/Fotos-Equipe/AlirianeAlmeida.jpg'},
+  {name: "Aline Vieira de Mello", role: "Coordenadora", desc: "Docente da Unipampa", image: "/images/Fotos-Equipe/AlineMello.jpg"},
   { name: "Amanda Gobus Lopes", role: "Ilustradora", desc: "Colaboradora Externa", image: "/images/Fotos-Equipe/AmandaLopes.jpg" },
   { name: "Amanda Meincke Melo", role: "Avaliadora", desc: "Docente da Unipampa", image: "/images/Fotos-Equipe/AmandaMelo.jpg" },
+  { name: "Ana Lúcia Vargas", role: "Avaliadora", desc: "Colaboradora Externa", image: "/images/Fotos-Equipe/AnaLuciaVargas.jpg" },
+  {name: "Davi Tito Tafernaberry", role: "Equipe Executora", desc: "Discente da Unipampa", image: "/images/Fotos-Equipe/Davi.jpg" },
+  {name: "Eduardo Leal", role: "Programador", desc: "Discente da Unipampa", image: "/images/Fotos-Equipe/Eduardo.jpg" },
+  {name: "Fabiano de Freitas Mion", role: "Equipe Executora", desc: "Discente da Unipampa", image: "/images/Fotos-Equipe/Fabiano2.jpeg" },
+  { name: "Iasmin Dembinski", role: "Programadora", desc: "Discente da Unipampa", image: "/images/Fotos-Equipe/Iasmin.jpeg"},
+  {name: "João Vitor Zanata Ferreira", role: "Programador", desc: "Discente da Unipampa", image: "/images/Fotos-Equipe/JoaoVitor.jpeg" },
+  {name: "Júlia Duarte", role: "Equipe Executora", desc: "Discente da Unipampa", image: "/images/Fotos-Equipe/JuliaDuarte.jpeg" },
   { name: "Mariléia Marchezan", role: "Avaliadora", desc: "Colaboradora Externa", image: "/images/Fotos-Equipe/MarileiaMarchezan.jpg" },
   { name: "Marlucy Medeiros", role: "Equipe Executora", desc: "TAE da Unipampa", image: "/images/Fotos-Equipe/MarlucyMedeiros.jpg" },
-  { name: "Eduardo Leal", role: "Programador", desc: "Discente da Unipampa", image: "/images/Fotos-Equipe/Eduardo.jpg" },
-  { name: "Nicolas Feijó", role: "Programador", desc: "Discente da Unipampa", image: "/images/Fotos-Equipe/Nicolas.jpg" },
-  { name: "Rosa Helena Martinez", role: "Avaliadora", desc: "Colaboradora Externa", image: "/images/Fotos-Equipe/RosaMartinez.jpg" },
-  { name: "Alexandre Alves", role: "Avaliador", desc: "Colaborador Externo", image: "/images/Fotos-Equipe/AlexandreAlderete.jpg" },
-  { name: "Nathália Pinheiro", role: "Avaliadora", desc: "Colaboradora Externa", image: "/images/Fotos-Equipe/Nathalia.jpg" },
-  { name: "Paulo Berquó", role: "Avaliador", desc: "Colaborador Externo", image: "/images/Fotos-Equipe/PauloBerquo.jpg" },
-  { name: "Aliriane Almeida", role: "Avaliadora", desc: "Colaboradora Externa", image: '/images/Fotos-Equipe/AlirianeAlmeida.jpg' },
-  { name: "Ana Lúcia Vargas", role: "Avaliadora", desc: "Colaboradora Externa", image: "/images/Fotos-Equipe/AnaLuciaVargas.jpg" },
   { name: "Maura da Costa e Silva", role: "Avaliadora", desc: "Colaboradora Externa", image: "/images/Fotos-Equipe/Maura.jpg" },
-  { name: "Merlen Alves", role: "Avaliadora", desc: "Colaboradora Externa", image: "/images/Fotos-Equipe/MerlenAlves.jpg" },
+  { name: "Merlen Alves", role: "Avaliadora", desc: "Colaboradora Externa", image: "/images/Fotos-Equipe/MerlenAlves.jpg"},
   { name: "Naiana Fantinelli", role: "Avaliadora", desc: "Colaboradora Externa", image: "/images/Fotos-Equipe/NaianaFantinelli.jpg" },
-  { name: "Tais Rodrigues", role: "Avaliadora", desc: "Colaboradora Externa", image: "/images/Fotos-Equipe/TaisRodrigues.jpeg" },
-  { name: "Iasmin Dembinski", role: "Programadora", desc: "Discente da Unipampa", image: "/images/Fotos-Equipe/Iasmin.jpeg" },
-  {name: "Júlia Duarte", role: "Equipe Executora", desc: "Discente da Unipampa", image: "/images/Fotos-Equipe/JuliaDuarte.jpeg" },
-  {name: "Fabiano de Freitas Mion", role: "Equipe Executora", desc: "Discente da Unipampa", image: "/images/Fotos-Equipe/Fabiano2.jpeg" },
-  {name: "Davi Tito Tafernaberry", role: "Equipe Executora", desc: "Discente da Unipampa", image: "/images/Fotos-Equipe/Davi.jpg" },
-  {name: "Raquel Mariano Linhares", role: "Equipe Executora", desc: "Docente da Unipampa", image: "/images/Fotos-Equipe/RaquelMariano.jpeg" }
+  { name: "Nathália Pinheiro", role: "Avaliadora", desc: "Colaboradora Externa", image: "/images/Fotos-Equipe/Nathalia.jpg"},
+  { name: "Nicolas Feijó", role: "Programador", desc: "Discente da Unipampa", image: "/images/Fotos-Equipe/Nicolas.jpg" },
+  {name: "Paulo Berquó", role: "Avaliador", desc: "Colaborador Externo", image: "/images/Fotos-Equipe/PauloBerquo.jpg" },
+  {name: "Raquel Mariano Linhares", role: "Equipe Executora", desc: "Docente da Unipampa", image: "/images/Fotos-Equipe/RaquelMariano.jpeg"},
+  { name: "Rosa Helena Martinez", role: "Avaliadora", desc: "Colaboradora Externa", image: "/images/Fotos-Equipe/RosaMartinez.jpg" },
+  { name: "Tais Rodrigues", role: "Avaliadora", desc: "Colaboradora Externa", image: "/images/Fotos-Equipe/TaisRodrigues.jpeg" }
 ];
 
 export function Equipe() {
