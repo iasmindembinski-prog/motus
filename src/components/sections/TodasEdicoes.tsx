@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 
 const covers = [
-  "/images/CapaMotus9.png",
+  "/images/capaMotus9.png",
   "/images/CapaMotus8.png",
   "/images/capaMotus7.png",
   "/images/Motus6capa.png",
