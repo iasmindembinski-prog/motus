@@ -6,17 +6,17 @@ import Link from "next/link";
 
 const covers = [
   "/images/capaMotus9.png",
+  "/images/CapaMotusGuarani.png",
   "/images/CapaMotus8.png",
   "/images/capaMotus7.png",
+  "/images/capaNarrativas.png",
   "/images/Motus6capa.png",
   "/images/motus5.png",
+  "/images/encontro.png",
   "/images/motus4.png",
   "/images/motus3.png",
-  "/images/motus2.png",
-  "/images/motus1.png",
-  "/images/encontro.png",
-  "images/CapaMotusGuarani.png",
-  "/images/capaNarrativas.png"
+  "images/motus2.png",
+  "/images/motus1.png"
 ];
 
 export function TodasEdicoes() {
@@ -55,7 +55,7 @@ export function TodasEdicoes() {
           </motion.div>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
           {covers.map((cover, index) => (
             <Link
               key={index}

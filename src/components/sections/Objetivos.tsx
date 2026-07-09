@@ -5,13 +5,13 @@ import { BookOpen, Sparkles } from "lucide-react";
 
 const objetivos = [
   {
-    title: "Incentivar a produção",
+    title: "Incentivar a Produção Literária",
     description: "Estimular autores de todas as partes do Brasil e do mundo a produzirem obras literárias autênticas.",
     image: "/images/obj1.png",
     icon: BookOpen
   },
   {
-    title: "Intensificar o interesse",
+    title: "Intensificar o Interesse pela Leitura",
     description: "Despertar o gosto pela leitura através de projetos na escola e acessibilidade universal.",
     image: "/images/obj2.png",
     icon: Sparkles
