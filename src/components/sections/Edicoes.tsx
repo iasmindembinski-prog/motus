@@ -458,7 +458,7 @@ Todas as obras são acompanhadas por uma ilustração criada especialmente pela 
     buttons: [
       {
         kind: "book",
-        href: "https://bit.ly/motus5",
+        href: "https://drive.google.com/file/d/10zuLs2M037G2WdrcZ6wlH3xH23Y5kXaJ/view",
       },
       {
         kind: "epub",
@@ -496,7 +496,7 @@ Todas as obras são acompanhadas por uma ilustração criada especialmente pela 
     buttons: [
       {
         kind: "book",
-        href: "https://bit.ly/OEncontroDosPrincipes",
+        href: "https://drive.google.com/file/d/1G9GtNmREw42ai3trnM2w5ax_Pw0i1fm9/view",
       },
       {
         kind: "epub",
@@ -530,7 +530,7 @@ Todas as obras são acompanhadas por uma ilustração criada especialmente pela 
     buttons: [
       {
         kind: "book",
-        href: "https://bit.ly/motus4",
+        href: "https://drive.google.com/file/d/1ulg33gXRYLBb9y9bdiSVFgtPZDJVUaR2/view",
       },
       {
         kind: "epub",
