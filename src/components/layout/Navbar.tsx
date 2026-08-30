@@ -8,6 +8,7 @@ import { Menu, X } from "lucide-react";
 const navLinks = [
   { name: "Apresentação", href: "/#apresentacao" },
   { name: "Objetivos", href: "/#objetivos" },
+  { name: "Prêmio de Redação", href: "/#redacao"},
   { name: "Prêmio Motus", href: "/#premio" },
   { name: "Edições", href: "/edicoes" },
   { name: "Equipe", href: "/#equipe" },
