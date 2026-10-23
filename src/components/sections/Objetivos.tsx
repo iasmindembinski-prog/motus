@@ -66,7 +66,7 @@ export function Objetivos() {
               </div>
             </motion.div>
           ))}
-        </div>
+        </div> 
       </div>
     </section>
   );

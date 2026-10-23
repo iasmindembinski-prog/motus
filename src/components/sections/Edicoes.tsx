@@ -92,10 +92,61 @@ interface Edition {
 }
 
 const EDITIONS: Edition[] = [
+   // ── Motus #10 ──────────────────────────────────────────────
+  {
+    id: "motus10",
+    badge: "Edição Especial",
+    title: (
+      <>
+        Motus #10 <br />
+        <span className="text-[var(--accent)] italic">Uma década de histórias</span>
+      </>
+    ),
+    paragraphs: [
+      <>
+        Em comemoração aos dez anos do Projeto Motus, a décima edição apresenta uma proposta especial e comemorativa, reunindo obras que marcaram a trajetória do concurso Motus ao longo de suas nove edições anteriores. Para compor este livro, foram selecionados um conto e um poema de cada edição, da primeira à nona, totalizando dezoito textos. Além disso, a publicação inclui dois textos da categoria Educação Básica, selecionados entre as obras dessa categoria presentes nas edições anteriores.
+      </>,
+      <>
+       Mais do que revisitar as publicações anteriores, esta edição especial busca valorizar a diversidade de vozes, a criatividade e a expressão artística que contribuíram para construir a história do projeto. Cada texto vem acompanhado por uma ilustração, criada pelos artistas <strong>Amanda Gobus Lopes (motus #2 a motus #9), Eduardo Serpa (motus #1) e João (motus #1)</strong>. Todas as obras também estão disponíveis em áudio no Spotify e podem ser lidas integralmente com leitores de tela, ampliando o acesso à literatura para pessoas com deficiência visual e para aquelas em processo de alfabetização.
+
+        </>,
+        <>
+        Convidamos você a percorrer estas páginas, reencontrar histórias e celebrar uma década do projeto Motus. Que esta edição especial seja não apenas uma retrospectiva do caminho percorrido, mas também uma homenagem a todas as pessoas que ajudaram a construir a história do projeto e um convite para que novas histórias continuem florescendo nos próximos anos.
+
+        </>
+    ],
+    cover: "/images/capaMotus10.png",
+    coverAlt: "Capa Motus #10 — Edição Especial",
+    coverRight: false,
+    /*
+     * Button table — Motus #10
+     * ┌─────────┬─────────────────────────────────────────────────────────────────────┐
+     * │  kind   │ href                                                                │
+     * ├─────────┼─────────────────────────────────────────────────────────────────────┤
+     * │ book    │https://drive.google.com/file/d/1znWpz6piFkGs6uXFd3KHKLtoWJ4KbtuD/view?usp=sharing 
+     * │ audio   │     https://open.spotify.com/show/7rlE6zRz3P0N8J7BPYMZJu           │
+     * └─────────┴─────────────────────────────────────────────────────────────────────┘
+     * live  → https://www.youtube.com/live/4DrJEDnxR9A?si=DzwR9NpUAP1CeWrf
+     */
+    buttons: [
+      {
+        kind: "book",
+        href: "https://drive.google.com/file/d/1znWpz6piFkGs6uXFd3KHKLtoWJ4KbtuD/view?usp=sharing",
+      },
+      {
+        kind: "audio",
+        href: "https://open.spotify.com/show/7rlE6zRz3P0N8J7BPYMZJu",
+      },
+      {
+        kind: "live",
+        href: "https://www.youtube.com/live/4DrJEDnxR9A?si=DzwR9NpUAP1CeWrf",
+      },
+    ],
+  },
   // ── Motus #9 ──────────────────────────────────────────────
   {
     id: "motus9",
-    badge: "Edição Atual",
+    badge: "Verdades e Mentiras",
     title: (
       <>
         Motus #9 <br />
