@@ -115,7 +115,7 @@ const EDITIONS: Edition[] = [
 
         </>
     ],
-    cover: "/images/capaMotus10.png",
+    cover: "/images/CapaMotus10.png",
     coverAlt: "Capa Motus #10 — Edição Especial",
     coverRight: false,
     /*
