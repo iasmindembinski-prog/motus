@@ -34,9 +34,10 @@ export function PremioRedacao() {
               <Calendar className="text-white mt-1" size={20} />
               <div>
                 <strong className="block text-sm uppercase tracking-wider text-[var(--background)]/50 mb-1">Inscrições</strong>
-                <span className="font-medium text-[var(--background)]">Até 30 de setembro de 2026</span>
+                <span className="font-medium text-[var(--background)]">Encerradas</span>
               </div>
             </div>
+
             <div className="flex items-start gap-3">
               <Trophy className="text-white mt-1" size={20} />
               <div>
@@ -44,7 +45,29 @@ export function PremioRedacao() {
                 <span className="font-medium text-[var(--background)]">6º ao 9º ano e Ensino Médio</span>
               </div>
             </div>
+            
+            <div className="flex items-start gap-3">
+              <Calendar className="text-white mt-1" size={20} />
+              <div>
+                <strong className="block text-sm uppercase tracking-wider text-[var(--background)]/50 mb-1">Etapa Atual</strong>
+                <span className="font-medium text-[var(--background)]">Avaliação das redações.</span>
+              </div>
+            </div>  
+              
+              
+              <div className="flex items-start gap-3">
+              <Trophy className="text-white mt-1" size={20} />
+              <div>
+                <strong className="block text-sm uppercase tracking-wider text-[var(--background)]/50 mb-1">Divulgação dos Resultados</strong>
+                <span className="font-medium text-[var(--background)]">Até 27 de novembro de 2026.</span>
+              </div>
+            </div>
           </div>
+   
+
+  
+          
+          
 
           <div className="pt-2 space-y-1 text-[var(--background)]/70 font-serif text-base">
             <p className="text-sm uppercase tracking-wider text-[var(--background)]/50 mb-2 font-sans not-italic">
@@ -65,7 +88,7 @@ export function PremioRedacao() {
 
           <a href="https://drive.google.com/file/d/1f8K1IxyKFCd3dEpdpUbGE5sj2jamHxxj/view" target="_blank" rel="noopener noreferrer" 
              className="inline-flex items-center gap-2 group text-white hover:text-white transition-colors duration-300 font-medium text-lg mt-4">
-            Inscreva-se / Acesse o Edital
+            Acesse o Edital
             <ArrowRight className="group-hover:translate-x-1 text-white transition-transform" size={20} />
           </a>
         </motion.div>

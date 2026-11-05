@@ -3,6 +3,7 @@ import { Footer } from "@/components/layout/Footer";
 import { HeroSection } from "@/components/sections/HeroSection";
 import { Apresentacao } from "@/components/sections/Apresentacao";
 import { Objetivos } from "@/components/sections/Objetivos";
+import { Lancamento } from "@/components/sections/Lancamento";
 import { PremioRedacao } from "@/components/sections/PremioRedacao";
 import { PremioMotus } from "@/components/sections/PremioMotus";
 import { TodasEdicoes } from "@/components/sections/TodasEdicoes";
@@ -16,6 +17,7 @@ export default function Home() {
         <HeroSection />
         <Apresentacao />
         <Objetivos />
+        <Lancamento />
         <PremioRedacao/>
         <PremioMotus />
         <TodasEdicoes />
