@@ -102,7 +102,7 @@ export function PremioRedacao() {
         >
           <a href="https://drive.google.com/file/d/1f8K1IxyKFCd3dEpdpUbGE5sj2jamHxxj/view" target="_blank" rel="noopener noreferrer" className="block relative group overflow-hidden rounded-xl shadow-2xl border border-[var(--background)]/10">
             <img 
-              src="/images/PremioMotusdeMelhorRedacao.png" 
+              src="/images/PremioMotusdeMelhorRedacao.jpeg" 
               alt="Prêmio Motus de Melhor Redação - 2026" 
               className="w-full h-auto max-w-[500px] object-cover transition-transform duration-700 group-hover:scale-105"
             />

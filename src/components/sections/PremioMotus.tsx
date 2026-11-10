@@ -76,10 +76,13 @@ export function PremioMotus() {
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 1, ease: "easeOut", delay: 0.2 }}
         >
-          <a href="https://www.instagram.com/p/DXzOzcvgBU_/?igsh=MTJpa29yYzEzZDcybA%3D%3D" target="_blank" rel="noopener noreferrer" className="block relative group overflow-hidden rounded-xl shadow-2xl border border-[var(--foreground)]/10">
-            <img 
-              src="/images/CardPremioMotus.jpg" 
-              alt="Prêmio Motus de Melhor Leitura Crítica" 
+          <a href="https://www.instagram.com/p/DepcpW9RsEX/" target="_blank" rel="noopener noreferrer" className="block relative group overflow-hidden rounded-xl shadow-2xl border border-[var(--foreground)]/10">
+            <video 
+              src="/videos/CardPremioMotus.mp4" 
+              autoPlay
+              loop
+              muted
+              playsInline
               className="w-full h-auto max-w-[500px] object-cover transition-transform duration-700 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-500" />
